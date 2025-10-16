@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "微信文章书籍提取器 - 书单精灵",
   "main": "server.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",

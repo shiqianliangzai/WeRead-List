@@ -1,4 +1,4 @@
-const { CozeAPI } = require('@coze/api');
+import { CozeAPI } from '@coze/api';
 
 // 配置信息
 const config = {
@@ -190,7 +190,7 @@ async function extractBooksFromWeChatArticle(url) {
   }
 }
 
-module.exports = async function handler(req, res) {
+export default async function handler(req, res) {
   // 设置CORS头
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
