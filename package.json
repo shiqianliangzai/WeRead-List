@@ -1,0 +1,19 @@
+{
+  "name": "weread-list",
+  "version": "1.0.0",
+  "description": "微信文章书籍提取器 - 书单精灵",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "npm install",
+    "vercel-build": "npm install"
+  },
+  "dependencies": {
+    "@coze/api": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
